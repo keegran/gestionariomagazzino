@@ -34,9 +34,28 @@
 ~(magazzino ha una quantità di pezzi che varia)
 6)
 
+
+
+
 quali sono le classi ? 
 classe pezzo generico. Classe Soldi.  
 classe pezzo generico. Classe Soldi. Classe clienti.
+
+ASSEGNAZIONE DEI RUOLI: 
+CETTA: Fare classe pezzo e metodi 
+Valentini: fare classe acquirente che estende cittadino 
+Vendetta: fare metodi di acquirente 
+Licocci: fare il main 
+
+
+
+
+
+
+
+
+
+
 
 
 
