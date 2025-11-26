@@ -1,0 +1,44 @@
+~test class prodotti {
+~		float prezzo magazzino;
+~		float prezzo acquirente;
+~		string nome;
+~		int	Codice;
+~		string modello;
+~		string marca;
+~}
+~
+~	test class acquirente extends cittadino{
+~	String	identificativo;
+~	float sconto; 
+~	public acquirente(String identificativo, float sconto){
+~		trows exeption {
+~		if )(sconto == 100 ) {
+~		trow
+~		
+~	
+~
+~
+~
+~
+~
+~
+~		[classe	pezzo: codice, nome, marca, modello, prezzo,  
+~		classe	acquirente: sconto 
+~magazzino: guadagno, spesa, numero pezzi.
+~
+~1)trovare pezzo in base a nome o codice (identificare pezzo)
+~2)identificare cliente (cliente necessita identificativo)
+~3)applicare lo sconto al pezzo in base al cliente (cliente necessita sconto)
+~4)calcolare il guadagno basato sulla spesa del magazzino (magazzino ha una spesa) [magazzino ha un guadagno]
+~5)calcolare il numero dei pezzi in magazzino e farli scalare in base a quanti ne vengono acquistati 
+~(magazzino ha una quantità di pezzi che varia)
+6)
+
+quali sono le classi ? 
+classe pezzo generico. Classe Soldi.  
+classe pezzo generico. Classe Soldi. Classe clienti.
+
+
+
+pezzo (codice, nome, marca, modello, prezzo);
+magazzino: pezzi_disponibili, spesa per i pezzi, guadagno su ogni pezzo (quanti soldi ottengo dopo la sottrazione con la spesa); 
