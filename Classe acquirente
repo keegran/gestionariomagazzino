@@ -1,0 +1,19 @@
+public class Acquirente extends Pezzo {
+    int identificativo;
+    int sconto;
+
+    public Acquirente (int identificativo, int sconto){
+        this.identificativo=identificativo;
+        this.sconto=sconto;
+        super(prezzoacquirente);
+        if(0 == sconto || 100){
+            try {
+                throw new Exception("sconto invalido");
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+    float scontoeuro =(prezzoacquirente * sconto)/100;
+    float ScontoFinale = prezzoacquirente-scontoeuro;
+}
