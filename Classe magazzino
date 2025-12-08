@@ -16,6 +16,6 @@ public class Magazzino extends Pezzo{
         }
     }
 double Guadagnototale=prezzoacquirente-spesa;
-double Spesatotale=prezzomagazzino;
+double Spesatotale=prezzomagazzino*PezziComprati;
 int nPezzirimanenti=nPezzi-PezziComprati;
 }
